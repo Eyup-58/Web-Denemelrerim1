@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro website</title>
+    <link rel="stylesheet" href="prowebsite23.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+</head>
+<body>
+<nav class="navbar">
+    <div class="kutu">
+        <div class="logo"><a href="">Eyüp <span>Yıldız</span></a></div>
+    
+        <ul class="menu">
+            <li><a href="">Ana Sayfa</a></li>
+            <li><a href="">Hakkımda</a></li>
+            <li><a href="">Servislerim</a></li>
+            <li><a href="">Yeteneklerim</a></li>
+            <li><a href="">bağlantı</a></li>
+        </ul>
+    
+        <div class="menu_btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    
+    
+    </div>
+</nav>
+    <!-----Ana Sayfa bölümü----->
+    <section class="ana" id="ana">
+        <div class="anakutu">
+            <div class="ana-kutu">
+                <div class="kelime1">İsmim Eyüp Yıldız</div>
+                <div class="kelime2">Ben Şirketinizde front end devoloper olarak çalışmak istiyorum ve </div>
+                <div class="kelime3">Şirketinzde<span> tecrübe kazanmak </span><span class="typing">istiyorum</span></div>
+                <a href="">İş Arıyorum</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem recusandae perferendis alias tempora vero? Est maiores ea, illo quasi fuga iusto aliquam, harum unde modi quisquam natus sed culpa quis quibusdam dolor dignissimos distinctio placeat nemo praesentium voluptate temporibus atque? Soluta cumque voluptates unde magni voluptatum commodi possimus, quidem amet deleniti odit asperiores quaerat impedit maiores non quod officiis labore ducimus obcaecati est hic ipsam eius temporibus? Aliquam atque qui quam ad pariatur cumque nobis quod, aperiam dolore, repellat voluptas fugiat odit aut rerum, omnis ducimus. Commodi, ipsum nostrum. Facilis ex dicta repellat adipisci harum a quas qui velit, rem architecto sequi quis facere, praesentium quos iure expedita ea maiores quaerat distinctio amet? Deserunt, quo rerum atque voluptatum doloribus, quisquam ducimus expedita hic reiciendis magnam ratione dolores aperiam voluptatibus consequuntur deleniti voluptatem corrupti ad debitis asperiores commodi. Odio unde nihil adipisci consequuntur quae nulla blanditiis quis. Odit, illum reiciendis ullam saepe corrupti sunt voluptatibus rem nobis sequi natus libero quibusdam aliquam nemo commodi magnam odio id adipisci, deserunt corporis atque labore quidem illo dolorem. Quo optio, et quisquam esse velit necessitatibus veniam distinctio vero, autem, ut odio. Placeat mollitia sapiente doloremque nam quibusdam a, iusto magni ab odit, magnam aliquid.</p>
+
+    <script src="script.js"></script>
+</body>
+</html>

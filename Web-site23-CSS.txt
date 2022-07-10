@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,700;1,400&family=Oswald:wght@200&family=Rubik+Moonrocks&family=Ubuntu:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+/*navbara dekorasyonu*/
+.navbar{
+    /*background: crimson;*/
+    position:fixed;
+    padding: 30px 0;
+    width: 100%;
+    font-family: 'urbuntu',sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar.sticky{
+    padding: 30px 0;
+     background: crimson;
+}
+.kutu{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar .kutu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a {
+ font-size: 35px;
+ color: #fff;
+ font-weight: 600;
+
+}
+.navbar .logo a span {
+    color: crimson;
+    transition: all 0.3s ease;
+}
+.navbar.sticky .navbar .logo a span
+{
+    color: #fff;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color  0.3s ease;
+}
+
+
+
+.navbar .menu li a:hover{
+color: crimson;
+
+
+}
+.navbar.sticky .menu li a:hover{
+    color: #fff;
+}
+/*Menü ikon stilleme */
+
+.menu_btn i{
+    font-size: 23px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+
+}
+
+/*Ana Sayfa Bölümü*/
+
+.ana{
+    display: flex;
+    background: url(/images23/laptopimage.png) no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'urbuntu' , sans-serif;
+}
+
+.ana .anakutu{
+    margin: auto 0 auto 40px;
+}
+
+.ana .ana-kutu .kelime1{
+    font-size: 27px;
+}
+
+.ana .ana-kutu .kelime2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.ana .ana-kutu .kelime3{
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+.ana .ana-kutu .kelime3 span{
+    color: crimson;
+    font-weight: 500;
+
+}
+
+
+.ana .ana-kutu a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px ;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.ana .ana-kutu a:hover{
+ color: #fff;
+ background: none;
+}
+
+
